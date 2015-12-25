@@ -10,4 +10,8 @@ class TestController {
         render "Test1"
     }
 
+    def test2 = {
+        redirect(action: index)
+    }
+
 }
