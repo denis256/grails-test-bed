@@ -14,4 +14,10 @@ class TestController {
         redirect(action: index)
     }
 
+    def test3 = {
+        def value = "Test value " + new Date();
+        def map = [key1: value ]
+        render(view: "/testController/test3", model: map)
+    }
+
 }
