@@ -6,4 +6,8 @@ class TestController {
         render "Test controller"
     }
 
+    def test1= {
+        render "Test1"
+    }
+
 }
