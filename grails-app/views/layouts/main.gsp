@@ -11,6 +11,7 @@
         <g:layoutHead/>
     </head>
     <body>
+    <h1>Test book store application</h1>
         <div id="grailsLogo" role="banner"><a href="http://grails.org"><asset:image src="grails_logo.png" alt="Grails"/></a></div>
         <g:layoutBody/>
         <div class="footer" role="contentinfo"></div>
