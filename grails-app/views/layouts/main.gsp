@@ -14,7 +14,10 @@
     <h1>Test book store application</h1>
         <div id="grailsLogo" role="banner"><a href="http://grails.org"><asset:image src="grails_logo.png" alt="Grails"/></a></div>
         <g:layoutBody/>
+
+    <h2>Test Qwe 123</h2>
         <div class="footer" role="contentinfo"></div>
+    <h2>ABC</h2>
         <div id="spinner" class="spinner" style="display:none;"><g:message code="spinner.alt" default="Loading&hellip;"/></div>
     </body>
 </html>
