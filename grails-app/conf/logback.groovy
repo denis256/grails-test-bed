@@ -8,6 +8,7 @@ appender('STDOUT', ConsoleAppender) {
     }
 }
 
+logger('org.springframework.boot.autoconfigure.security', INFO)
 root(ERROR, ['STDOUT'])
 
 def targetDir = BuildSettings.TARGET_DIR
