@@ -12,7 +12,11 @@
     </head>
     <body>
     <h1>Test book store application</h1>
-        <div id="grailsLogo" role="banner"><a href="http://grails.org"><asset:image src="grails_logo.png" alt="Grails"/></a></div>
+
+    <g:link controller='logout' action=''>Spring Logout</g:link>
+
+
+    <div id="grailsLogo" role="banner"><a href="http://grails.org"><asset:image src="grails_logo.png" alt="Grails"/></a></div>
         <g:layoutBody/>
 
     <h2>Test Qwe 123</h2>
